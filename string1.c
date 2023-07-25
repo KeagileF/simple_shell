@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcpy – strings are replicated
+ * _strcpy - strings are replicated
  * @dest: the destination
  * @src: the source
  *
