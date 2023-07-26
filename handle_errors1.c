@@ -12,7 +12,7 @@ int _erratoi(char *s)
 	unsigned long int result = 0;
 
 	if (*s == '+')
-		s++;  
+		s++;
 	for (i = 0;  s[i] != '\0'; i++)
 	{
 		if (s[i] >= '0' && s[i] <= '9')
@@ -71,7 +71,7 @@ int print_d(int input, int fd)
 	}
 
 	count += (__putchar('0' + current), 1);
-	return count;
+	return (count);
 }
 
 
